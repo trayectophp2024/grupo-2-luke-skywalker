@@ -6,13 +6,13 @@
     <div class="row">
 
         <div>
-<!-- card -->
+            <!-- card -->
 
 
 
-        <div class="d-flex justify-content-center">
-<!-- foto -->
- <img src="img/hansolo.gif" alt="">
+            <div class="d-flex justify-content-center">
+                <!-- foto -->
+                <img src="img/hansolo.gif" alt="">
 
 
             </div>

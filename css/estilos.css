@@ -1,3 +1,69 @@
 body {
     background-image: url(../img/Fondo.png);
 }
+
+
+
+
+/* HEADER SUPERIOR*/
+
+  h1 {
+    color: #000;
+    font-family: Starjedi, sans-serif;
+    -webkit-text-stroke: 1px white;
+}
+
+/* Estilo para el input */
+.search-input {
+    opacity: 0.7; /* Opacidad para el input */
+}
+  
+  /* Cambiar la opacidad del span */
+  .search-span {
+    opacity: 0.7;
+  }
+
+/* Estilo para el placeholder */
+  .search-input::placeholder {
+    font-weight: 500;
+    color: #211551; /* Cambia el color del placeholder a azul */
+    opacity: 1; /* Asegura que el placeholder no se vea afectado por la opacidad del input */
+  }
+
+
+  .search-input:valid {
+    font-weight: 500;
+    color:#211551 ; /* Cambia el color del texto a azul cuando el usuario escribe en el campo */
+  }
+
+  /* HEADER INFERIOR */
+
+.header-inferior nav a  {
+    color: #000;
+    font-family: Starjedi, sans-serif;
+    font-size: 30px;
+    -webkit-text-stroke: 1px #fbe122;
+}
+
+
+
+
+.nav-hover {
+    transition: color 0.3s ease, transform 0.3s ease; /* Transición suave para el color */
+  }
+  
+.sable {
+    transition: filter 0.3s ease, transform 0.3s ease; /* Transición suave para la imagen del sable */
+  }
+  
+  /* Al pasar el mouse sobre el enlace */
+  .nav-hover:hover {
+    color: #159c18 ;/* Cambia el color del texto al verde pasado en el bosquejo*/
+    transform: scale(1.1); /* Agranda ligeramente el texto */
+  }
+  
+  /* Al pasar el mouse sobre el sable */
+  .nav-hover:hover .sable {
+    filter: brightness(3); /* Aumenta el brillo de la imagen */
+    transform: scale(1.1); /* Agranda ligeramente la imagen */
+  }
