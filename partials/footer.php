@@ -1,6 +1,6 @@
 <footer>
     <div class= "p-2">
-        <div  class="d-flex justify-content-between ">
+        <div  class="d-flex justify-content-between align-items-center ">
             <h2 class="text-white">Todos los derechos reservados</h2>
             <img width="50px" src="img/R2D2_footer.png" alt="">
         </div>
