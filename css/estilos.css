@@ -71,3 +71,12 @@ body {
     filter: brightness(3); /* Aumenta el brillo de la imagen */
     transform: scale(1.1); /* Agranda ligeramente la imagen */
   }
+
+
+  /* INDEX */
+  .main-index  {
+    padding: 20px;
+    
+    background-color: rgba(7, 7, 151, 0.548);
+    
+  }

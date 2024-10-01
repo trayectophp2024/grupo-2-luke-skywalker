@@ -1,7 +1,7 @@
-<footer>
-    <div class= "p-2">
-        <div  class="d-flex justify-content-between align-items-center ">
-            <h2 class="text-white">Todos los derechos reservados</h2>
+<footer class= "container">
+    <div class= "mt-5 mb-2">
+        <div  class="d-flex justify-content-between align-items-center">
+            <p class="text-warning mt-3">Todos los derechos reservados </p>
             <img width="50px" src="img/R2D2_footer.png" alt="">
         </div>
     </div>
