@@ -39,7 +39,7 @@ echo "</pre>"; */
 <div class="row mt-3">
     <?php foreach ($categorias as $producto) { ?>
             <div class="col-2 d-block mt-4" >
-                <a href="#" class="text-decoration-none">
+                <a href="personaje_solo.php?categorias=<?=$tabla?>&id=<?=$producto['id']?>" class="text-decoration-none">
                     <div class="border border-light border-2">
                         <div class=" text-bg-dark">
                             <h4 class="fs-6 card-title fw-bold text-success text-bg-light text-center py-3"><?= $producto['nombre']; ?></h4>

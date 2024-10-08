@@ -16,6 +16,7 @@ return $result->fetch_all(MYSQLI_ASSOC);
 
 
 /* Listar un producto en particular */
+/* Listar un producto en particular */
 
 function categoria_particular($conn, $tabla, $id){
 
