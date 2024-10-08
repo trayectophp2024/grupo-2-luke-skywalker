@@ -5,10 +5,11 @@ require_once "utils/db_connections.php";
 
 //Capturamos la tabla que viene por gEt
 
-$tabla = $_GET['$categorias'] ?? false;
+$tabla = $_GET['categoria'] ?? false;
 
 $tablas = [
-    'personajes' => 'personajes',
+    'personajes' => 'personajes_star',
+
 
 ];
 
@@ -35,38 +36,19 @@ echo "</pre>"; */
 
 <main class="container">
 
-
-
+<div class="row mt-3">
     <?php foreach ($categorias as $producto) { ?>
-        <div class="row mt-3 mx-auto">
-            <div class="col-2">
-            <div class="border border-light border-2">
-
-                <div class="card-body text-bg-dark">
-                    <h4 class="card-title fw-bold text-success text-bg-light text-center py-3"><?= $producto['nombre']; ?></h5>
-                    <img src="img/<?= $producto['imagen']; ?>" class="card-img d-block" alt="">
-
-
-                </div>
-            </div>
-        </div>
-        </div>
-    <?php } ?>
-
-    <!-- <div class="row mt-3 mx-auto">
-        <div class="col-2">
-            <a href="#" class="text-decoration-none">
-                <div class="border border-light border-2">
-                    <div class="card-body text-bg-dark">
-                        <h4 class="card-title fw-bold text-success text-bg-light text-center py-3">GROGU Alias BabyYoda.</h4>
-                        <img src="img/grogu_sin_fondo.png" class="card-img  d-block" alt="...">
+            <div class="col-2 d-block mt-4" >
+                <a href="#" class="text-decoration-none">
+                    <div class="border border-light border-2">
+                        <div class=" text-bg-dark">
+                            <h4 class="fs-6 card-title fw-bold text-success text-bg-light text-center py-3"><?= $producto['nombre']; ?></h4>
+                            <img height= "150px" width="150px" src="img/personajes/<?=$producto['imagen'];?>" class="d-block w-100" alt="...">
+                        </div>
                     </div>
-                </div>
-            </a>
-        </div> -->
-
-
-
-</main>
-
+                </a>
+            </div>
+        <?php } ?>
+</div>
+        
 <?php require "partials/footer.php"  ?>

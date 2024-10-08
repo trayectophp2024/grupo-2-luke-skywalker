@@ -24,8 +24,8 @@
     <div class="header-superior container">
       <div class="row mt-3 d-flex justify-content-around ">
         <div class="col-2">
-          <img width="200px" src="img/estrella_header.png" alt="">
-        </div>
+          <a href="index.php"><img width="200px" src="img/estrella_header.png" alt="">
+        </div></a>
         <div class="col-8">
           <h1>el universo de star wars</h1>
           <form action="" method="post">
@@ -49,14 +49,14 @@
 
         </div>
         <div class="nav-item text-center mx-2">
-          <a class="nav-link d-flex flex-column nav-hover " href="">
+          <a class="nav-link d-flex flex-column nav-hover " href="personajes.php?categoria=personajes">
             Personajes
             <img class="p-0 sable" width="120px" src="img/sable-1.webp" alt="Sable Películas">
           </a>
 
         </div>
         <div class="nav-item text-center mx-2">
-          <a class="nav-link  d-flex flex-column nav-hover" href="#">
+          <a class="nav-link  d-flex flex-column nav-hover" href="personajes.php?categoria=naves">
             Naves
             <img class="p-0 sable" width="120px" src="img/sable-1.webp" alt="Sable Películas">
           </a>
