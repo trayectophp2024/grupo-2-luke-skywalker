@@ -56,7 +56,7 @@
 
         </div>
         <div class="nav-item text-center mx-2">
-          <a class="nav-link  d-flex flex-column nav-hover" href="personajes.php?categoria=naves">
+          <a class="nav-link  d-flex flex-column nav-hover" href="naves.php?categoria=naves">
             Naves
             <img class="p-0 sable" width="120px" src="img/sable-1.webp" alt="Sable Películas">
           </a>
