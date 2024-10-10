@@ -34,7 +34,7 @@ echo "</pre>"; */
 
 <?php require "partials/header.php" ?>
 
-<main class="container">
+<main class="container background-color1">
 
 <div class="row mt-3">
     <?php foreach ($categorias as $producto) { ?>
@@ -50,5 +50,14 @@ echo "</pre>"; */
             </div>
         <?php } ?>
 </div>
+<div class="row">
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <a class="btn btn-secondary rounded rounded-5 border border-light border-2 btn-sm nav-hover mt-2" type="button" href="index.php" role="button">ATRÁS</a>
+        
+</div>
+
+
+        </div>
+</main>
         
 <?php require "partials/footer.php"  ?>

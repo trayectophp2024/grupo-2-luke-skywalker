@@ -43,7 +43,7 @@ echo "</pre>"; */
             <?php foreach ($peliculas_one as $producto) { ?>
                 <img width="250px" height="350px" src="img/peliculas/<?= $producto['imagen']; ?>" alt="...">
             <?php } ?>
-            <p class="text-white">ORDEN CRONOLÓGICO:<br>Episodio I - La amenaza fantasma. (1999)<br>Episodio II - El ataque de los clones. (2002)<br>Episodio III - La venganza de los sith. (2005)<br>La guerra de las galaxias. (1977)<br>El imperio contraataca. (1980)<br>El retorno del Jedi. (1983)<br>Star Wars: El despertar de la Fuera. (2015)<br>Star Wars: Los últimos Jedi. (2017)<br>Star Wars: El ascenso de Skywalkre. (2019)
+            <p class="text text-white fs-6">ORDEN CRONOLÓGICO:<br>Episodio I - La amenaza fantasma. (1999)<br>Episodio II - El ataque de los clones. (2002)<br>Episodio III - La venganza de los sith. (2005)<br>La guerra de las galaxias. (1977)<br>El imperio contraataca. (1980)<br>El retorno del Jedi. (1983)<br>Star Wars: El despertar de la Fuera. (2015)<br>Star Wars: Los últimos Jedi. (2017)<br>Star Wars: El ascenso de Skywalkre. (2019)
             </p>
 
         </div>
