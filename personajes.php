@@ -43,7 +43,7 @@ echo "</pre>"; */
                     <div class="border border-light border-2">
                         <div class=" text-bg-dark">
                             <h4 class="fs-6 card-title fw-bold text-success text-bg-light text-center py-3"><?= $producto['nombre']; ?></h4>
-                            <img height= "150px" width="150px" src="img/personajes/<?=$producto['imagen'];?>" class="d-flex flex-fill w-100" alt="...">
+                            <img height= "150px" width="150px" src="img/personajes/<?=$producto['imagen'];?>" class="d-flex w-100" alt="...">
                         </div>
                     </div>
                 </a>

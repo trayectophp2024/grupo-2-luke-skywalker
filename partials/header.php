@@ -42,7 +42,7 @@
     <div class="header-inferior container">
       <nav class="nav d-flex justify-content-evenly">
         <div class="nav-item text-center mx-2">
-          <a class="nav-link  d-flex flex-column nav-hover" href="#">
+          <a class="nav-link  d-flex flex-column nav-hover" href="peliculas.php?categoria=peliculas">
             Películas
             <img class="p-0 sable" width="120px" src="img/sable-1.webp" alt="Sable Películas">
           </a>
