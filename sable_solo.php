@@ -37,26 +37,22 @@ echo "</pre>"; */
 
 
             <div class="col-3 border border-light border-2">
-                <img height="300px" width="300px" src="img/personajes/<?= $producto['imagen']; ?>" class="d-block w-100" alt="...">
+                <img height="300px" width="300px" src="img/sables/<?= $producto['imagen']; ?>" class="d-block w-100" alt="...">
                 <h2 class="card-title fw-bold text-success text-bg-light text-center m-1 py-3"><?= $producto['nombre']; ?></h2>
 
-                <h5 class="fw-bold text-center text-white border-top border-light border-2 pt-5">ESPECIE</h5>
-                <p class="card-text text-center text-white fs-6 pb-3 d-flex flex-column align-items-center"><?= $producto['especie']; ?></p>
+                <h5 class="fw-bold text-center text-white border-top border-light border-2 pt-5">PROPIETARIO</h5>
+                <p class="card-text text-center text-white fs-6 pb-3 d-flex flex-column align-items-center"><?= $producto['propietario']; ?></p>
 
             </div>
 
-            <div class="col-9 border border-light border-2 p-3" style="min-height:200px">
+            <div class="col-9 border border-light border-2 p-4" style="min-height:200px">
                 <p class="card-text text-white fs-5"><?= $producto['descripcion']; ?></p>
+                <h4 class="pt-3">COLOR:</h4>
+                <p class="card-text text-white fs-6"><?= $producto['color']; ?></p>
                 <h4 class="pt-3">AFILIACIÓN:</h4>
                 <p class="card-text text-white fs-6"><?= $producto['afiliacion']; ?></p>
-                <h4 class="pt-3">PLANETA NATAL:</h4>
-                <p class="card-text text-white fs-6"><?= $producto['planeta_natal']; ?></p>
-                <h4 class="pt-3">HABILIDADES:</h4>
-                <p class="card-text text-white fs-6"><?= $producto['habilidades']; ?></p>
-                <h4 class="pt-3">ARMA:</h4>
-                <p class="card-text text-white fs-6"><?= $producto['arma']; ?></p>
-                <h4 class="pt-3">ACTOR:</h4>
-                <p class="card-text text-white fs-6"><?= $producto['actor']; ?></p>
+                <h4 class="pt-3">CRISTAL:</h4>
+                <p class="card-text text-white fs-6"><?= $producto['cristal']; ?></p>
             </div>
 
 
@@ -69,7 +65,5 @@ echo "</pre>"; */
         </div>
     </div>
 </main>
-
-
 
 <?php require "partials/footer.php"  ?>

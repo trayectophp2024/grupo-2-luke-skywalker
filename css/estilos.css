@@ -2,7 +2,7 @@
 
 
 body {
-    background-image: url(../img/Fondo_de_pagina.png);
+    background-image: url(../img/Fondo.png);
     font-family: "Gothic A1", sans-serif;
 }
 
@@ -60,6 +60,7 @@ h4 {
 .nav-hover {
     transition: color 0.3s ease, transform 0.3s ease; /* Transición suave para el color */
   }
+ 
   
 .sable {
     transition: filter 0.3s ease, transform 0.3s ease; /* Transición suave para la imagen del sable */
@@ -91,4 +92,10 @@ h4 {
     
     background-color: rgba(7, 7, 151, 0.548);
     
+  }
+
+  .boton {
+opacity: 60%;
+background-color: #fffffc;
+color: #000;
   }

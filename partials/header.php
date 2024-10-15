@@ -68,7 +68,7 @@
           </a>
         </div>
         <div class="nav-item text-center mx-2">
-          <a class="nav-link   d-flex flex-column nav-hover" href="#">
+          <a class="nav-link   d-flex flex-column nav-hover" href="creditos.php">
             Créditos
             <img class="p-0 sable" width="120px" src="img/sable-1.webp" alt="Sable Películas">
           </a>
