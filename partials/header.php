@@ -28,10 +28,10 @@
         </div></a>
         <div class="col-8">
           <h1>el universo de star wars</h1>
-          <form action="" method="post">
+          <form action="busqueda.php" method="get">
             <div class="input-group">
               <span class="input-group-text search-span"><i class="fas fa-search"></i></span>
-              <input class="form-control search-input" type="search" name="" id="" placeholder="Buscar lo que quieres saber tu debes.">
+              <input class="form-control search-input" type="search" name="q" id="" placeholder="Buscar lo que quieres saber tu debes.">
               
             </div>
           </form>
