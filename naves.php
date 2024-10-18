@@ -37,21 +37,20 @@ echo "</pre>"; */
 
     <div class="row">
         <?php foreach ($naves as $producto) { ?>
-            <div class="col-3">
-                <img height="200px" width="300px" src="img/naves/<?= $producto['imagen']; ?>" class="d-block w-100" alt="...">
-                <p class="fw-bold text-center text-success m-1 p-1 border border-1 border-light"><?= $producto['nombre']; ?></p>
+            <div class="col-3 text-center">
+                <img height="200px" width="300px" src="img/naves/<?= $producto['imagen']; ?>" class="d-block w-100 text-center rounded" alt="...">
+                <a class="btn fw-bold text-success text-center m-1 p-1 border btn-dark border-1 border-light m-3"  type="button" href="nave_solo.php?categorias=<?=$tabla?>&id=<?=$producto['id']?>" role="button"><?= $producto['nombre']; ?></a>> <?= $producto['nombre']; ?></a>            
             </div>
-
         <?php } ?>
 
+
+
         <div class="row">
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-        <a class="btn btn-secondary rounded rounded-5 border border-light border-2 btn-sm nav-hover" type="button" href="index.php" role="button">ATRÁS</a>
-        
-</div>
-
-
+        <div class="d-grid d-md-flex justify-content-md-end">
+            <a class="btn boton btn-secondary rounded rounded-5 border border-light border-1 btn-sm mt-2" type="button" href="index.php" role="button">ATRÁS</a>
         </div>
+    </div>
+
 </main>
 
 

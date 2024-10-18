@@ -7,7 +7,7 @@
 
     <!-- Banner -->
 
-    <a href="">
+    <a class ="nav-link hoverbanner" href="personaje_solo.php?categorias=personajes&id=18">
         <img width="100%" src="img/Banner.png" alt="">
     </a>
 
@@ -15,7 +15,7 @@
 
     <div class="row mt-3 mx-auto">
         <div class="col-6">
-            <a href="#" class="text-decoration-none">
+            <a href="personaje_solo.php?categorias=personajes&id=22" class="text-decoration-none">
                 <div class="border border-light border-2">
                     <div class="card-body text-bg-dark">
                         <h4 class="card-title fw-bold text-success text-bg-light text-center py-3">GROGU Alias BabyYoda.</h4>

@@ -28,10 +28,10 @@
         </div></a>
         <div class="col-8">
           <h1>el universo de star wars</h1>
-          <form action="" method="post">
+          <form action="busqueda.php" method="get">
             <div class="input-group">
               <span class="input-group-text search-span"><i class="fas fa-search"></i></span>
-              <input class="form-control search-input" type="search" name="" id="" placeholder="Buscar lo que quieres saber tu debes.">
+              <input class="form-control search-input" type="search" name="q" id="" placeholder="Buscar lo que quieres saber tu debes.">
               
             </div>
           </form>
@@ -68,7 +68,7 @@
           </a>
         </div>
         <div class="nav-item text-center mx-2">
-          <a class="nav-link   d-flex flex-column nav-hover" href="#">
+          <a class="nav-link   d-flex flex-column nav-hover" href="creditos.php">
             Créditos
             <img class="p-0 sable" width="120px" src="img/sable-1.webp" alt="Sable Películas">
           </a>

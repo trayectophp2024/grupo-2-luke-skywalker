@@ -31,21 +31,18 @@ $sables = listar_todos($conn, $tabla);
 
     <div class="row">
         <?php foreach ($sables as $producto) { ?>
-            <div class="col-6 px-5 pt-5">
-                <img height="300px" width="300px" src="img/sables/<?= $producto['imagen']; ?>" class="d-block w-100" alt="...">
-                <p class="fw-bold text-center bg-black text-success m-1 p-1 border border-1 border-light"><?= $producto['nombre']; ?></p>
+            <div class="col-6 text-center px-5 pt-5">
+                <img height="300px" width="300px" src="img/sables/<?= $producto['imagen']; ?>" class="d-block w-100 border rounded" alt="...">
+                <a class="btn fw-bold text-success m-1 p-1 border btn-dark border-1 border-light m-3"  type="button" href="sable_solo.php?categorias=<?=$tabla?>&id=<?=$producto['id']?>" role="button"><?= $producto['nombre']; ?></a>
             </div>
 
         <?php } ?>
 
         <div class="row">
-        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-        <a class="btn btn-secondary rounded rounded-5 border border-light border-2 btn-sm nav-hover" type="button" href="index.php" role="button">ATRÁS</a>
-        
-</div>
-
-
+        <div class="d-grid d-md-flex justify-content-md-end">
+            <a class="btn boton btn-secondary rounded rounded-5 border border-light border-1 btn-sm mt-2" type="button" href="index.php" role="button">ATRÁS</a>
         </div>
+    </div>
 </main>
 
 
