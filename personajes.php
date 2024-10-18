@@ -34,11 +34,11 @@ echo "</pre>"; */
 
 <?php require "partials/header.php" ?>
 
-<main class="container background-color1">
+<main class="container-sm background-color1">
 
 <div class="row mt-3">
     <?php foreach ($categorias as $producto) { ?>
-            <div class="col-2 d-block mt-4" >
+            <div class="col-2 d-flex mt-4" >
                 <a href="personaje_solo.php?categorias=<?=$tabla?>&id=<?=$producto['id']?>" class="text-decoration-none">
                     <div class="border rounded border-light border-2">
                         <div class=" text-bg-dark">
