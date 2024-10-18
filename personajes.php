@@ -34,16 +34,16 @@ echo "</pre>"; */
 
 <?php require "partials/header.php" ?>
 
-<main class="container-sm background-color1">
+<main class="container background-color1">
 
 <div class="row mt-3">
     <?php foreach ($categorias as $producto) { ?>
-            <div class="col-2 d-flex mt-4" >
+            <div class="col-2 d-inline mt-4" >
                 <a href="personaje_solo.php?categorias=<?=$tabla?>&id=<?=$producto['id']?>" class="text-decoration-none">
                     <div class="border rounded border-light border-2">
-                        <div class=" text-bg-dark">
+                        <div class="text-bg-dark">
                             <h4 class="fs-6 card-title fw-bold text-success text-bg-light text-center py-3"><?= $producto['nombre']; ?></h4>
-                            <img height= "150px" width="150px" src="img/personajes/<?=$producto['imagen'];?>" class="d-flex w-100" alt="...">
+                            <img height= "200px" width="200px" src="img/personajes/<?=$producto['imagen'];?>" class="d-inline w-100" alt="...">
                         </div>
                     </div>
                 </a>
