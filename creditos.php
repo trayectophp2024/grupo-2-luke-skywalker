@@ -3,17 +3,17 @@
 <?php require "partials/header.php" ?>
 <main class="container background-color1">
 
+
 <div id="carouselExampleFade" class="carousel slide carousel-fade">
   <div class="carousel-inner">
     <div class="carousel-item active">
-
-      <img src="img/grogu_sin_fondo.png" class="d-block w-50" alt="...">
+      <img src="img/Personajes/luke-skywalker.webp" class="d-block w-50" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/estrella_header.png" class="d-block w-50" alt="...">
+      <img src="img/Personajes/ashoka.webp" class="d-block w-50" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="img/fuerza.jpg" class="d-block w-50" alt="...">
+      <img src="img/Personajes/chewbacca.webp" class="d-block w-50" alt="...">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">

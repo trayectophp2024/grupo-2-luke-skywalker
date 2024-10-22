@@ -17,6 +17,13 @@ body {
     -webkit-text-stroke: 1px white;
 }
 
+
+h2 {
+  color: #000;
+  font-family: Starjedi, sans-serif;
+  -webkit-text-stroke: 1px white;
+}
+
 h4 {
   color: #fffffc;
   font-size: 16px;
