@@ -24,13 +24,13 @@ require "partials/header.php"
 ?>
 
 
-<main class="container">
+<main class="container vh-100 background-color1">
     <h1 class="text-center">Resultados de la búsqueda</h1>
     <?php if ($termino_busqueda && !empty($productos)) { ?>
         <div class='row'>
             <?php foreach ($productos as $producto) { ?>
 
-                <div class="col-4 mt-4 mb-4">
+                <div class="col-4 mt-2 mb-2">
                     <div class="card" style="width: 18rem;">
 
                         <div class="card-body">

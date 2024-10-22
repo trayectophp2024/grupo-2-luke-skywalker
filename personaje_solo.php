@@ -28,7 +28,7 @@ echo "</pre>"; */
 
 <?php require "partials/header.php" ?>
 
-<main class="container">
+<main class="container background-color1">
 
     <div class="row g-0 mt-5 border border-light border-2">
 

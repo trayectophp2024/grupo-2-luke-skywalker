@@ -1,7 +1,7 @@
 
 
 <?php require "partials/header.php" ?>
-<main class="container">
+<main class="container background-color1">
 
 <div id="carouselExampleFade" class="carousel slide carousel-fade">
   <div class="carousel-inner">

@@ -39,7 +39,7 @@ echo "</pre>"; */
         <?php foreach ($naves as $producto) { ?>
             <div class="col-3 text-center">
                 <img height="200px" width="300px" src="img/naves/<?= $producto['imagen']; ?>" class="d-block w-100 text-center rounded" alt="...">
-                <a class="btn fw-bold text-success text-center m-1 p-1 border btn-dark border-1 border-light m-3"  type="button" href="nave_solo.php?categorias=<?=$tabla?>&id=<?=$producto['id']?>" role="button"><?= $producto['nombre']; ?></a>> <?= $producto['nombre']; ?></a>            
+                <a class="btn fw-bold text-success text-center m-1 p-1 border btn-dark border-1 border-light m-3"  type="button" href="nave_solo.php?categorias=<?=$tabla?>&id=<?=$producto['id']?>" role="button"><?= $producto['nombre']; ?></a>            
             </div>
         <?php } ?>
 

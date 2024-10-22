@@ -13,6 +13,9 @@
   <link rel="stylesheet" href="css/estilos.css">
   <link rel="stylesheet" href="css/fuentes.css">
 
+  <!-- FAVICON -->
+
+   <link rel="shortcut icon" href="img/estrella_header.png" type="image/x-icon">
   <!-- Iconos -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
