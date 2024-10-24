@@ -23,7 +23,6 @@ require "partials/header.php"
 
 ?>
 
-
 <main class="container vh-100 background-color1">
     <h1 class="text-center">Resultados de la búsqueda</h1>
     <?php if ($termino_busqueda && !empty($productos)) { ?>
