@@ -20,8 +20,13 @@ body {
 
 h2 {
   color: #000;
-  font-family: Starjedi, sans-serif;
   -webkit-text-stroke: 1px white;
+}
+
+h3 {
+  color: #200e4b;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 h4 {

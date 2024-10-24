@@ -1,30 +1,42 @@
-
-
 <?php require "partials/header.php" ?>
 <main class="container background-color1">
 
+  <div class="mt-5 mb-3 text-center">
+    <h1 class="fs-1">equipo de trabajo</h1>
 
-<div id="carouselExampleFade" class="carousel slide carousel-fade">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="img/Personajes/luke-skywalker.webp" class="d-block w-50" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/Personajes/ashoka.webp" class="d-block w-50" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="img/Personajes/chewbacca.webp" class="d-block w-50" alt="...">
-    </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+
+  <div class="card-group">
+    <div class="card nav-hover text-bg-dark border border-light m-2 border-2 rounded">
+      <div class="card-body">
+        <p class="card-text badge fs-6 text-bg-light rounded-pill">Giuliana Berlato</p>
+        <img src="img/Personajes/leia.webp" class="card-img-top p-1" alt="...">
+        <h3 class="card-title m-1">DISEÑADORA WEB 1</h3>
+      </div>
+    </div>
+    <div class="card nav-hover text-bg-dark border border-light m-2 border-2 rounded">
+      <div class="card-body">
+        <p class="card-text badge fs-6 text-bg-light rounded-pill nav-hover">Emiliano Bellomo</p>
+        <img src="img/Personajes/yoda.webp" class="card-img-top p-1" alt="...">
+        <h3 class="card-title m-1">PROGRAMADOR</h3>
+      </div>
+    </div>
+    <div class="card nav-hover text-bg-dark border border-light m-2 border-2 rounded">
+      <div class="card-body">
+        <p class="card-text badge fs-6 text-bg-light rounded-pill nav-hover">Giuliana Belén Canosa</p>
+        <img src="img/Personajes/ashoka.webp" class="card-img-top p-1" alt="...">
+        <h3 class="card-title m-1">TESTER TURNO MAÑANA</h3>
+      </div>
+    </div>
+    <div class="card nav-hover text-bg-dark border border-light m-2 border-2 rounded">
+      <div class="card-body">
+        <p class="card-text badge fs-6 text-bg-light rounded-pill nav-hover">Julian Rolón</p>
+        <img src="img/Personajes/chewbacca.webp" class="card-img-top p-1" alt="...">
+        <h3 class="card-title m-1">TESTER TURNO NOCHE</h3>
+      </div>
+    </div>
+    
+  </div>
 
 
 </main>
