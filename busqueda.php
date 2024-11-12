@@ -15,6 +15,7 @@ if ($termino_busqueda) {
     $productos = buscar_productos($conn, $termino_busqueda);
 }
 
+
 ?>
 
 <?php
@@ -35,19 +36,28 @@ require "partials/header.php"
                         <div class="card-body">
                             <h5 class="card-title"><?= $producto['nombre'] ?></h5>
                             <img src="img/<?= $producto['tabla'] ?>/<?= $producto['imagen'] ?>" class="card-img" alt="">
-                            <p><?= substr($producto['descripcion'] ,0,80 )?>...</p>
 
-                           <?php if($producto['tabla'] == 'peliculas'  ) {?>
+                            <?php if ($producto['tabla'] !==  'equipo') { ?>
+                                <p><?= substr($producto['descripcion'], 0, 80) ?>...</p>
 
-                           <a href="" hidden></a>
+                            <?php } else { ?>
 
-                           <?php }else { ?>
-                            <a href="<?= rtrim($producto['tabla'], 's') ?>_solo.php?categorias=<?= $producto['tabla'] ?>&id=<?= $producto['id'] ?>" class="btn btn-primary">Ver</a>
-                            
+                                <p></p>
                             <?php  } ?>
 
-                            
-                           
+                            <?php if ($producto['tabla'] == 'peliculas' || $producto['tabla'] == 'equipo') { ?>
+
+                                <a href="" hidden></a>
+
+                            <?php } else { ?>
+                                <a href="<?= rtrim($producto['tabla'], 's') ?>_solo.php?categorias=<?= $producto['tabla'] ?>&id=<?= $producto['id'] ?>" class="btn btn-primary">Ver</a>
+
+                            <?php  } ?>
+
+
+
+
+
                         </div>
                     </div>
                 </div>

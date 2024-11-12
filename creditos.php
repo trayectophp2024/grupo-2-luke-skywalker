@@ -25,14 +25,14 @@
       <div class="card-body">
         <p class="card-text badge fs-6 text-bg-light rounded-pill nav-hover">Giuliana Belén Canosa</p>
         <img src="img/Personajes/ashoka.webp" class="card-img-top p-1" alt="...">
-        <h3 class="card-title m-1">TESTER TURNO MAÑANA</h3>
+        <h3 class="card-title m-1">TESTER TURNO NOCHE</h3>
       </div>
     </div>
     <div class="card nav-hover text-bg-dark border border-light m-2 border-2 rounded">
       <div class="card-body">
-        <p class="card-text badge fs-6 text-bg-light rounded-pill nav-hover">Julian Rolón</p>
+        <p class="card-text badge fs-6 text-bg-light rounded-pill nav-hover">Miguel Rolón</p>
         <img src="img/Personajes/chewbacca.webp" class="card-img-top p-1" alt="...">
-        <h3 class="card-title m-1">TESTER TURNO NOCHE</h3>
+        <h3 class="card-title m-1">TESTER TURNO MAÑANA</h3>
       </div>
     </div>
     

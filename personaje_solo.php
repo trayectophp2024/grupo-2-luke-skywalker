@@ -65,7 +65,7 @@ echo "</pre>"; */
     </div>
     <div class="row">
         <div class="d-grid d-md-flex justify-content-md-end">
-            <a class="btn boton btn-secondary rounded rounded-5 border border-light border-1 btn-sm mt-2" type="button" href="index.php" role="button">ATRÁS</a>
+            <a class="btn boton btn-secondary rounded rounded-5 border border-light border-1 btn-sm mt-2" type="button" href="personajes.php?categoria=personajes" role="button">ATRÁS</a>
         </div>
     </div>
 </main>

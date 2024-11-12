@@ -41,20 +41,26 @@ echo "</pre>"; */
     <div class="row">
         <div class="col d-flex justify-content-between gap-4 m-2">
             <?php foreach ($peliculas_one as $producto) { ?>
-                <img width="250px" height="350px" src="img/peliculas/<?= $producto['imagen']; ?>" alt="..." class="rounded">
-            <?php } ?>
-            <p class="text text-white fs-6">ORDEN CRONOLÓGICO:<br>Episodio I - La amenaza fantasma. (1999)<br>Episodio II - El ataque de los clones. (2002)<br>Episodio III - La venganza de los sith. (2005)<br>La guerra de las galaxias. (1977)<br>El imperio contraataca. (1980)<br>El retorno del Jedi. (1983)<br>Star Wars: El despertar de la Fuera. (2015)<br>Star Wars: Los últimos Jedi. (2017)<br>Star Wars: El ascenso de Skywalkre. (2019)
+             
+                <a   href="peli1_sola.php?categorias=<?=$tabla?>&id=<?=$producto['id']?>" > 
+                    <img width="250px" height="350px" src="img/peliculas/<?= $producto['imagen'];?> " alt="..." class="rounded" >
+                </a>
+            <?php } ?> 
+             
+            <p class="text text-white fs-6">ORDEN CRONOLÓGICO:<br>Episodio I - La amenaza fantasma. (1999)<br>Episodio II - El ataque de los clones. (2002)<br>Episodio III - La venganza de los sith. (2005)<br>La guerra de las galaxias. (1977)<br>El imperio contraataca. (1980)<br>El retorno del Jedi. (1983)<br>Star Wars: El despertar de la Fuerza. (2015)<br>Rogue One: una historia de Star Wars(2016) <br>Star Wars: Los últimos Jedi. (2017)<br>Han Solo: una historia de Star Wars (2018)<br>Star Wars: El ascenso de Skywalker. (2019)
             </p>
 
         </div>
     </div>
 
-
     <div class="row">
         <div class="col d-flex justify-content gap-4 m-2">
             <?php foreach ($peliculas_two  as $producto) { ?>
-                <img width="250px" height="350px" src="img/peliculas/<?= $producto['imagen']; ?>" alt="..." class="rounded">
-            <?php } ?>
+
+              <a   href="peli1_sola.php?categorias=<?=$tabla?>&id=<?=$producto['id']?>" > 
+                    <img width="250px" height="350px" src="img/peliculas/<?= $producto['imagen'];?> " alt="..." class="rounded" >
+                </a>
+            <?php } ?> 
 
         </div>
     </div>
@@ -63,9 +69,11 @@ echo "</pre>"; */
     <div class="row">
         <div class="col d-flex justify-content-between gap-4 m-2">
             <?php foreach ($peliculas_three  as $producto) { ?>
-                <img width="250px" height="350px" src="img/peliculas/<?= $producto['imagen']; ?>" alt="..." class="rounded">
-            <?php } ?>
-            <p class="text-white">ORDEN DE ESTRENO:<br>La guerra de las galaxias. (1977)<br>El imperio contraataca. (1980)<br>El retorno del Jedi. (1983)<br>Episodio I - La amenaza fantasma. (1999)<br>Episodio II - El ataque de los clones. (2002)<br>Episodio III -La venganza de los sith. (2005)<br>Star Wars: El despertara de la Fuerzza. (2015)<br>Star Wars II: Los últimos Jedi. (2017)<br>Stara Wars: El ascenso de Skywalker. (2019)</p>
+                <a   href="peli1_sola.php?categorias=<?=$tabla?>&id=<?=$producto['id']?>" > 
+                    <img width="250px" height="350px" src="img/peliculas/<?= $producto['imagen'];?> " alt="..." class="rounded" >
+                </a>
+            <?php } ?> 
+            <p class="text-white">ORDEN DE ESTRENO:<br>La guerra de las galaxias. (1977)<br>El imperio contraataca. (1980)<br>El retorno del Jedi. (1983)<br>Episodio I - La amenaza fantasma. (1999)<br>Episodio II - El ataque de los clones. (2002)<br>Episodio III -La venganza de los sith. (2005)<br>Star Wars: El despertar de la Fuerza. (2015)<br>Rogue One: una historia de Star Wars(2016) <br>Star Wars: Los últimos Jedi. (2017)<br>Han Solo: una historia de Star Wars (2018)<br>Star Wars: El ascenso de Skywalker. (2019)</p>
         </div>
     </div>
 
