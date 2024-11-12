@@ -36,7 +36,7 @@ echo "</pre>"; */
 
 
             <div class="col-3 border border-light border-2">
-                <img height="300px" width="300px" src="img/naves/<?= $producto['imagen']; ?>" class="d-block w-100" alt="...">
+                <img width="300px" src="img/naves/<?= $producto['imagen']; ?>" class="d-block w-100" alt="...">
                 <h2 class="card-title fw-bold text-success text-bg-light text-center m-1 py-3"><?= $producto['nombre']; ?></h2>
 
                 <h5 class="fw-bold text-center text-white border-top border-light border-2 pt-5">ARMAMENTO</h5>
