@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-10-2024 a las 21:39:21
+-- Tiempo de generación: 12-11-2024 a las 20:50:34
 -- Versión del servidor: 10.4.32-MariaDB
 -- Versión de PHP: 8.2.12
 
@@ -22,6 +22,30 @@ SET time_zone = "+00:00";
 --
 CREATE DATABASE IF NOT EXISTS `starwarsweb` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE `starwarsweb`;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `equipo`
+--
+
+CREATE TABLE `equipo` (
+  `id` int(11) NOT NULL,
+  `nombre` varchar(50) NOT NULL,
+  `apellido` varchar(50) NOT NULL,
+  `rol` varchar(50) NOT NULL,
+  `imagen` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Volcado de datos para la tabla `equipo`
+--
+
+INSERT INTO `equipo` (`id`, `nombre`, `apellido`, `rol`, `imagen`) VALUES
+(1, 'Giuliana', 'Berlato', 'Diseñadora Web 1', 'leia.webp'),
+(2, 'Emiliano', 'Bellomo', 'Programador', 'yoda.webp'),
+(3, 'Giuliana Belén', 'Canosa', 'Tester Turno Noche', 'ashoka.webp'),
+(4, 'Miguel', 'Rolón', 'Tester Turno Mañana', 'chewbacca.webp');
 
 -- --------------------------------------------------------
 
@@ -174,6 +198,12 @@ INSERT INTO `sables` (`id`, `nombre`, `descripcion`, `color`, `propietario`, `af
 --
 
 --
+-- Indices de la tabla `equipo`
+--
+ALTER TABLE `equipo`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indices de la tabla `naves`
 --
 ALTER TABLE `naves`
@@ -200,6 +230,12 @@ ALTER TABLE `sables`
 --
 -- AUTO_INCREMENT de las tablas volcadas
 --
+
+--
+-- AUTO_INCREMENT de la tabla `equipo`
+--
+ALTER TABLE `equipo`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- AUTO_INCREMENT de la tabla `naves`
