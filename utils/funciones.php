@@ -142,7 +142,8 @@ if (strtolower($termino_busqueda) === 'equipo' || ($termino_busqueda) === 'credi
      $sqlEquipoBusqueda = "SELECT 'equipo' as tabla, id, nombre, apellido, rol, imagen FROM equipo";
 } else {
    $sqlEquipoBusqueda = "SELECT 'equipo' as tabla, id, nombre, apellido, rol, imagen FROM equipo
-WHERE lower(nombre) LIKE '%$termino_busqueda%'"; 
+WHERE lower(nombre) LIKE '%$termino_busqueda%' 
+OR lower(rol) LIKE '%$termino_busqueda%'"; 
 }
 
 
@@ -158,27 +159,6 @@ WHERE lower(nombre) LIKE '%$termino_busqueda%'";
     // Combinar los resultados de las tres tablas
 
     $resultado = array_merge($resultNaves, $resultPeliculasBusqueda, $resultPersonajesBusqueda, $resultSablesBusqueda, $resultEquipoBusqueda);
-
-    return $resultado;
-}
-
-
-function buscar_equipo($conn, $termino_busqueda)
-{
-    // Escapar el termino de busqueda para evitar inyecciones sql
-
-    $termino_busqueda = $conn->real_escape_string($termino_busqueda);
-
-    if (strtolower($termino_busqueda) === 'equipo' || ($termino_busqueda) === 'equipos' ) {
-        // SI el termino es personaje o personajes rtraer todos los personajes sin filtrar
-         $sqlEquipoBusqueda = "SELECT 'equipo' as tabla, id, nombre, apellido, rol, imagen FROM equipo";
-    } else {
-       $sqlEquipoBusqueda = "SELECT 'equipo' as tabla, id, nombre, apellido, rol, imagen FROM equipo
-    WHERE lower(nombre) LIKE '%$termino_busqueda%' lower(rol) LIKE '%$termino_busqueda%'"; 
-    }
-
-    $resultEquipoBusqueda = $conn->query($sqlEquipoBusqueda)->fetch_all(MYSQLI_ASSOC);
-    $resultado = array_merge($resultEquipoBusqueda);
 
     return $resultado;
 }

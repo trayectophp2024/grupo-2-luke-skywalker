@@ -30,20 +30,19 @@ require "partials/header.php"
         <div class='row'>
             <?php foreach ($productos as $producto) { ?>
 
-                <div class="col-4 mt-2 mb-2">
+                <div class="col-4 mt-5 mb-2">
                     <div class="card" style="width: 18rem;">
 
                         <div class="card-body">
-                            <h5 class="card-title"><?= $producto['nombre'] ?></h5>
-                            <img src="img/<?= $producto['tabla'] ?>/<?= $producto['imagen'] ?>" class="card-img" alt="">
+                            <h5 class="card-title"><?= ($producto['tabla'] == 'equipo') ? $producto['nombre'] . ' ' . $producto['apellido'] : $producto['nombre'] ?></h5>
+                            <img src="img/<?= $producto['tabla'] ?>/<?= $producto['imagen'] ?>" class="card-img pb-3" alt="">
 
                             <?php if ($producto['tabla'] !==  'equipo') { ?>
                                 <p><?= substr($producto['descripcion'], 0, 80) ?>...</p>
-
-                            <?php } else { ?>
-
-                                <p></p>
-                            <?php  } ?>
+                                <?php } else { ?>
+                                <h3><?= substr($producto['rol'], 0, 80) ?></h3>
+                            <?php } ?>
+                       
 
                             <?php if ($producto['tabla'] == 'peliculas' || $producto['tabla'] == 'equipo') { ?>
 

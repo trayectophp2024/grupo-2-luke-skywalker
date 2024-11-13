@@ -40,10 +40,10 @@ echo "</pre>"; */
     <?php foreach ($categorias as $producto) { ?>
             <div class="col-2 d-block mt-4" >
                 <a href="personaje_solo.php?categorias=<?=$tabla?>&id=<?=$producto['id']?>" class="text-decoration-none">
-                    <div class="border rounded border-light border-2">
+                    <div class="border rounded border-light border-2 nav-hover">
                         <div class="text-bg-dark">
                             <h4 class="fs-6 card-title fw-bold text-success text-bg-light text-center py-3"><?= $producto['nombre']; ?></h4>
-                            <img height= "150px" width="150px" src="img/personajes/<?=$producto['imagen'];?>" class="d-block w-100" alt="...">
+                            <img width="150px" src="img/personajes/<?=$producto['imagen'];?>" class="d-block w-100" alt="...">
                         </div>
                     </div>
                 </a>

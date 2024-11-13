@@ -27,7 +27,7 @@
     <div class="header-superior container">
       <div class="row mt-3 d-flex justify-content-around ">
         <div class="col-2">
-          <a href="index.php"><img width="200px" src="img/estrella_header.png" alt="">
+          <a href="index.php"><img width="200px" src="img/estrella_header.png" alt="" class="nav-hover">
         </div></a>
         <div class="col-8">
           <h1>el universo de star wars</h1>
